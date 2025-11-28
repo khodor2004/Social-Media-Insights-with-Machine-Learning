@@ -1,9 +1,7 @@
 # Tweet Virality Prediction (Machine Learning + Streamlit)
 
-This project uses **machine learning** to predict whether a tweet is likely to go viral.  
-Tweet text is processed using **CountVectorizer and TF-IDF**, and a **Naive Bayes classifier** is trained to identify patterns behind tweet popularity.
-
-After testing both approaches, the **CountVectorizer + Naive Bayes** model achieved the best overall performance.
+This project predicts tweet virality using machine learning.  
+After testing multiple vectorization methods, the **CountVectorizer + Naive Bayes** model achieved **88% accuracy** and **98% recall** for viral tweets.
 
 ---
 
